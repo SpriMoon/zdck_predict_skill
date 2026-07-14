@@ -1,0 +1,35 @@
+{
+  "year_T": 2027,
+  "year_Tm1": 2026,
+  "score_rank": [
+    {"score": 660, "cum_rank": 100},
+    {"score": 659, "cum_rank": 200}
+  ],
+  "history": [
+    {"school": "学校全称（与招生计划一致）", "R_Tm1": 402, "S_Tm1": 649}
+  ],
+  "plan": [
+    {
+      "school": "学校全称",
+      "regular_Tm1": 400,
+      "regular_T": 400,
+      "quota_T": 0,
+      "transfer_T": 0,
+      "project_T": 0
+    }
+  ],
+  "new_schools": [
+    {
+      "school": "首年校全称",
+      "anchor": "锚校全称（须在 history 内）",
+      "lambda_leader": 0.90,
+      "lambda_location": 1.0,
+      "regular_T": 150
+    }
+  ],
+  "first_year_in_Tm1": ["T-1 是其首年的校（走补丁B）"],
+  "first_year_delta": {"该校名": 0.10},
+  "anomaly": [
+    {"school": "异常校全称", "reason": "改制/重大舆情/统招计划异动>30%"}
+  ]
+}
